@@ -1,0 +1,167 @@
+header{
+    background-image: url(bgdwall.jpg);
+    background-position: -180px;
+    padding: 6em;
+}
+body{
+    width: 80%;
+    margin: 0 auto;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 4em;
+}
+nav ul {
+    text-align: center;
+    background-color: hsl(51, 64%, 74%);
+    position: relative;
+    top: -2em;
+    padding: 1em 0;
+}
+nav ul li {
+    display: inline;
+    padding-right: 10em;
+
+}
+
+.sect h2{
+    color: hsl(240, 38%, 28%);
+    font-size: 2em;
+    
+
+}
+.flex-container{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+border: 1px solid black;
+padding-bottom: 5em;
+
+}
+#color #description{
+    font-size: 1.1em;
+}
+
+#color .flex-container div {
+    border: 1px solid black;
+    align-self: center;
+    width: 200px;
+    height: 100px;
+    box-sizing: border-box;
+    position: relative;
+    top: 2em; 
+}
+
+#color .flex-container .color-label{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+#color .flex-container .color-hex{
+    text-align: center;
+    color: white;
+}
+
+#one{
+    background-color: cornflowerblue;
+    box-shadow: 4px 4px 5px hsl(0, 1%, 55%);
+}
+
+#two{
+    background-color: aliceblue;
+    box-shadow: 4px 4px 5px hsl(0, 1%, 55%);
+}
+#color .flex-container #two .color-label,
+#color .flex-container #five .color-label,
+#color .flex-container #two .color-hex,
+#color .flex-container #five .color-hex{
+    color: black;
+}
+#tree{
+    background-color: cadetblue;
+    box-shadow: 4px 4px 5px hsl(0, 1%, 55%);
+}
+
+#four{
+    background-color: darkblue;
+    box-shadow: 4px 4px 5px hsl(0, 1%, 55%);
+}
+
+#five{
+    background-color: ghostwhite;
+    box-shadow: 4px 4px 5px hsl(0, 1%, 55%);
+}
+
+.flex-cont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 1px solid black;
+    padding-bottom: 5em;  
+}
+h3{
+    text-decoration: underline;
+}
+#six{
+    font-family:'Merriweather', serif; ;
+    font-weight: 300;
+}
+
+#seven{
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    font-style: italic;  
+}
+#eight {
+
+    font-family: 'Merriweather', serif;
+    font-weight: 900;       
+}
+#nine{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 100;
+}
+#ten{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;   
+}
+#eleven{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    font-style: italic;
+}
+#twelve{
+    font-family: 'Red Hat Mono', monospace;
+    font-weight: 300;  
+}
+#thirteen{
+    font-family: 'Red Hat Mono', monospace;
+    font-weight: 400;
+    font-style: italic;  
+}
+#fourteen{
+    font-family: 'Red Hat Mono', monospace;
+    font-weight: 700;  
+}
+.container{
+    border: 1px solid black;
+}
+#text-style .container #TS,
+#text-style .container h2,
+#text-style .container p{
+    color: black;
+    text-align: start;
+    text-decoration: underline;
+}
+footer{
+    text-align: center;
+    padding: 20px 0;
+    border: 1px solid black;
+    position: relative;
+    top: 2em;
+    background-color: hsl(51, 64%, 74%);
+}
